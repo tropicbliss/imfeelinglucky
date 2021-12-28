@@ -20,4 +20,4 @@ To modify the default values:
 
 Boredom.
 
-To add on to that, this mod could potentially help speedrunners increase their loot chances such that they get a chance to practice the later stages of the game without having to waste their time grinding for loot drops.
+To add on to that, this mod could potentially help speedrunners increase their loot chances such that they get a chance to practice the later stages of the game without having to waste their time grinding for loot drops from terrible seeds.

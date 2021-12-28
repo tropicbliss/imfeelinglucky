@@ -3,7 +3,7 @@
   "id": "imfeelinglucky",
   "version": "${version}",
   "name": "I'm Feeling Lucky",
-  "description": "Multiplies the chances of mobs dropping loot by a specified amount",
+  "description": "Multiplies the rolls of vanilla loot tables by a specified amount",
   "authors": [
     "tropicbliss"
   ],

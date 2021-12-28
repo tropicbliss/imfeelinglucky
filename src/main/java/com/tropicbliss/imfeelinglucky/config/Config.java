@@ -13,7 +13,7 @@ public class Config {
   public static void init() {
     SimpleConfig CONFIG = SimpleConfig.of(ImFeelingLuckyMod.MOD_ID + "config")
         .provider(Config::provider).request();
-    dropMultiplier = CONFIG.getOrDefault("dropMultiplier", 1);
+    dropMultiplier = CONFIG.getOrDefault("lootMultiplier", 1);
     blocks = CONFIG.getOrDefault("blocks", false);
     chests = CONFIG.getOrDefault("chests", true);
     entities = CONFIG.getOrDefault("entities", true);

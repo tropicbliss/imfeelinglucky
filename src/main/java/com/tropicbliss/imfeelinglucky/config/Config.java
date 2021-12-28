@@ -15,13 +15,13 @@ public class Config {
         .provider(Config::provider).request();
     dropMultiplier = CONFIG.getOrDefault("lootMultiplier", 1);
     blocks = CONFIG.getOrDefault("blocks", false);
-    chests = CONFIG.getOrDefault("chests", true);
+    chests = CONFIG.getOrDefault("chests", false);
     entities = CONFIG.getOrDefault("entities", true);
     gameplay = CONFIG.getOrDefault("gameplay", true);
   }
 
   private static String provider(String filename) {
-    return "dropMultiplier=1\n\n# Vanilla loot tables\nblocks=false\nchests=true\nentities=true\ngameplay=true\n";
+    return "dropMultiplier=1\n\n# Vanilla loot tables\nblocks=false\nchests=false\nentities=true\ngameplay=true\n";
   }
 
   public static int getDropMultiplier() {

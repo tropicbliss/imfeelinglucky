@@ -2,6 +2,8 @@
 
 This is a Fabric mod that multiplies the rolls of vanilla loot tables by a specified amount, meaning that mobs now drop more loot, Hoglins give you more stuff, and more items will be generated in loot chests.
 
+In case you were wondering, modifying loot drops in this mod does not affect loot drops in multiplayer, so don't even think of CHEATING.
+
 Requires Fabric API.
 
 ## Config

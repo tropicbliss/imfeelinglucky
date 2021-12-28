@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "imfeelinglucky",
+  "version": "${version}",
+  "name": "I'm Feeling Lucky",
+  "description": "Multiplies the chances of mobs dropping loot by a specified amount",
+  "authors": [
+    "tropicbliss"
+  ],
+  "contact": {
+    "homepage": "https://github.com/tropicbliss/imfeelinglucky",
+    "sources": "https://github.com/tropicbliss/imfeelinglucky"
+  },
+  "license": "MIT",
+  "icon": "assets/imfeelinglucky/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.tropicbliss.imfeelinglucky.ImFeelingLuckyMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric-loot-tables-v1": ">=1.0",
+    "minecraft": "1.16.1"
+  }
+}
